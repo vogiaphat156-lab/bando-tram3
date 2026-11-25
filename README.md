@@ -1,37 +1,33 @@
-# bando-tram3
-Website triển lãm nghệ thuật Trạm 3 – **Thưởng thức tác phẩm từ gạo**.
+# Trạm 3 — Nghệ thuật từ hạt gạo
 
-## Thêm hoặc thay ảnh
+Triển lãm trực tuyến thuộc dự án KHKT **Hành trình kết nối Gạo Thơm Đăk La**. Trang web tĩnh, không cần bước build.
 
-1. Tải ảnh thật lên thư mục `images/` bằng GitHub.
-2. Mở `images.json` và thêm một đối tượng:
+## Quản lý tác phẩm
+
+Thêm ảnh vào thư mục `images/`, sau đó thêm một mục vào `images.json`:
 
 ```json
 {
   "title": "Tên tác phẩm",
   "caption": "Chú thích ngắn",
-  "description": "Mô tả khi xem chi tiết",
+  "description": "Mô tả hiển thị khi mở ảnh",
   "src": "images/ten-anh.jpg",
   "group": "Tranh nghệ thuật",
   "ratio": "tall"
 }
 ```
 
-- Nhóm hợp lệ: `Tranh nghệ thuật`, `Sản phẩm thủ công`, `Sáng tạo độc đáo`.
-- `ratio` có thể là `tall`, `square` hoặc `wide` để bố trí hợp lý.
-- Dùng JPG/WebP, khuyến nghị 1200–1600 px và dưới 500 KB.
+Nhóm hỗ trợ: `Tranh nghệ thuật`, `Sản phẩm thủ công`, `Sáng tạo độc đáo`. Dùng `ratio` là `tall`, `square` hoặc `wide` để cung cấp kích thước gần đúng cho trình duyệt; ảnh vẫn giữ chiều cao tự nhiên và được sắp trong masonry.
 
-## Xóa hoặc thay thế
+- **Thêm:** tải ảnh lên `images/`, bổ sung đối tượng JSON, chú ý dấu phẩy giữa các mục.
+- **Xóa:** xóa mục khỏi `images.json`, sau đó xóa tệp ảnh nếu không còn dùng.
+- **Thay:** tải ảnh mới và cập nhật `src`; hoặc thay nội dung ảnh dưới cùng tên tệp.
+- Ưu tiên JPG/WebP, chiều rộng khoảng 1200–1600 px, dung lượng nén phù hợp để tải nhanh.
 
-- **Xóa:** xóa mục khỏi `images.json`, sau đó xóa tệp trong `images/`.
-- **Thay:** tải ảnh mới cùng tên hoặc đổi `src` trong `images.json`.
+Năm tệp SVG hiện tại là **ảnh mẫu giao diện**, không đại diện cho tác phẩm thật; hãy thay chúng khi có ảnh triển lãm.
 
-## Chạy thử
+## Chạy và xuất bản
 
-Mở bằng Live Server; không nên mở trực tiếp bằng `file://` vì trình duyệt có thể chặn `fetch('images.json')`.
+Dùng Live Server hoặc một máy chủ tĩnh khi thử cục bộ (không mở trực tiếp `file://`, vì `fetch()` cần HTTP).
 
-## GitHub Pages
-
-Repository Settings → Pages → Deploy from branch → `main` → `/ (root)`.
-
-Hiện có 5 ảnh SVG mẫu. Chúng chỉ dùng để kiểm tra giao diện và không đại diện cho tác phẩm thật.
+GitHub Pages: **Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save**. Các đường dẫn CSS, JavaScript và ảnh dùng đường dẫn tương đối, phù hợp cả khi website được phục vụ tại `https://<username>.github.io/bando-tram3/`.

@@ -1,42 +1,69 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f0e7">
-  <title>NGHỆ THUẬT TỪ HẠT GẠO</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <meta name="description" content="Không gian triển lãm trực tuyến những tác phẩm sáng tạo từ hạt gạo – Trạm 3, Hành trình kết nối Gạo Thơm Đăk La.">
+  <title>Nghệ thuật từ hạt gạo — Trạm 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero" id="top">
-    <nav class="nav"><a class="brand" href="#top">ĐẮK LA <span>· Trạm 3</span></a><a class="nav-link" href="#gallery">Triển lãm</a></nav>
-    <div class="hero-copy">
-      <p class="eyebrow">Hành trình kết nối Gạo Thơm Đăk La</p>
-      <h1>NGHỆ THUẬT<br>TỪ HẠT GẠO</h1>
-      <p class="lead">Từ những hạt gạo bình dị, những tác phẩm sáng tạo được hình thành</p>
-      <a class="explore" href="#gallery"><span>BẮT ĐẦU KHÁM PHÁ</span><span aria-hidden="true">↓</span></a>
+    <nav class="site-nav" aria-label="Điều hướng chính">
+      <a class="wordmark" href="#top"><span class="wordmark-mark" aria-hidden="true">ĐL</span><span>ĐẮK LA<small>Hành trình kết nối</small></span></a>
+      <a class="nav-visit" href="#gallery">Tham quan triển lãm <span aria-hidden="true">↘</span></a>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow"><span></span> TRẠM 3 · HÀNH TRÌNH KẾT NỐI GẠO THƠM ĐĂK LA</p>
+      <h1>NGHỆ THUẬT<br><em>TỪ HẠT GẠO</em></h1>
+      <div class="hero-bottom">
+        <p>Từ những hạt gạo bình dị, những tác phẩm sáng tạo được hình thành — mang theo câu chuyện về quê hương, bàn tay và trí tưởng tượng.</p>
+        <a class="round-link" href="#gallery" aria-label="Bắt đầu khám phá triển lãm"><span>BẮT ĐẦU<br>KHÁM PHÁ</span><b aria-hidden="true">↓</b></a>
+      </div>
     </div>
-    <div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="grain-field"></div></div>
+    <div class="hero-art" aria-label="Ảnh minh họa mẫu về nghệ thuật từ gạo">
+      <img src="images/sample-01.svg" alt="Minh họa nghệ thuật từ hạt gạo – ảnh mẫu, có thể thay bằng tác phẩm thật" fetchpriority="high">
+      <span class="art-label">CHẤT LIỆU BÌNH DỊ · Ý TƯỞNG VÔ TẬN</span>
+    </div>
+    <div class="hero-index" aria-hidden="true">01 — 03</div>
   </header>
 
   <main>
-    <section class="gallery-section" id="gallery">
-      <div class="section-heading"><p class="eyebrow">Không gian triển lãm</p><h2>Mỗi tác phẩm — một câu chuyện</h2></div>
-      <div class="filters" role="group" aria-label="Lọc tác phẩm">
-        <button class="filter active" data-filter="all">Tất cả</button>
-        <button class="filter" data-filter="Tranh nghệ thuật">Tranh nghệ thuật</button>
-        <button class="filter" data-filter="Sản phẩm thủ công">Thủ công</button>
-        <button class="filter" data-filter="Sáng tạo độc đáo">Sáng tạo độc đáo</button>
+    <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="gallery-intro">
+        <div><p class="eyebrow">BỘ SƯU TẬP · TRẠM 03</p><h2 id="gallery-title">Một hạt gạo,<br><em>ngàn cách kể.</em></h2></div>
+        <p class="gallery-note">Mời bạn bước chậm qua những tác phẩm được kết tinh từ sự khéo léo, trí tưởng tượng và tình yêu dành cho hạt gạo quê nhà.</p>
       </div>
-      <div class="masonry" id="masonry" aria-live="polite"></div>
+      <div class="gallery-toolbar">
+        <div class="filters" role="group" aria-label="Lọc tác phẩm theo nhóm">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Tất cả</button>
+          <button class="filter" type="button" data-filter="Tranh nghệ thuật" aria-pressed="false">Tranh nghệ thuật</button>
+          <button class="filter" type="button" data-filter="Sản phẩm thủ công" aria-pressed="false">Sản phẩm thủ công</button>
+          <button class="filter" type="button" data-filter="Sáng tạo độc đáo" aria-pressed="false">Sáng tạo độc đáo</button>
+        </div>
+        <p class="gallery-count" id="gallery-count" aria-live="polite"></p>
+      </div>
+      <div class="masonry" id="masonry" aria-live="polite" aria-busy="true"></div>
+      <noscript><p class="notice">Bật JavaScript để xem bộ sưu tập tác phẩm.</p></noscript>
     </section>
   </main>
 
-  <footer><p>“Mỗi hạt gạo không chỉ mang giá trị của một bữa ăn mà còn chứa đựng sự sáng tạo, tình yêu và những giá trị văn hóa đáng trân trọng.”</p></footer>
+  <footer class="closing">
+    <p class="eyebrow">LỜI KẾT · TRẠM 03</p>
+    <p class="closing-quote">“Mỗi hạt gạo không chỉ mang giá trị của một bữa ăn mà còn chứa đựng sự sáng tạo, tình yêu và những giá trị văn hóa đáng trân trọng.”</p>
+    <a class="back-top" href="#top">TRỞ VỀ ĐẦU TRANG ↑</a>
+  </footer>
 
-  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem tác phẩm chi tiết" hidden>
-    <button class="close" type="button" aria-label="Đóng">×</button>
-    <div class="lightbox-inner"><img id="lightbox-image" alt=""><div class="lightbox-caption"><h3 id="lightbox-title"></h3><p id="lightbox-description"></p></div></div>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-describedby="lightbox-description" hidden>
+    <button class="lightbox-close" type="button" aria-label="Đóng ảnh chi tiết">×</button>
+    <div class="lightbox-panel" role="document">
+      <div class="lightbox-image-wrap"><img id="lightbox-image" alt=""></div>
+      <div class="lightbox-caption"><p class="eyebrow" id="lightbox-group"></p><h2 id="lightbox-title"></h2><p id="lightbox-description"></p></div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
