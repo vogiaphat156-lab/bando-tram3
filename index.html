@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f0e7">
+  <title>NGHỆ THUẬT TỪ HẠT GẠO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav"><a class="brand" href="#top">ĐẮK LA <span>· Trạm 3</span></a><a class="nav-link" href="#gallery">Triển lãm</a></nav>
+    <div class="hero-copy">
+      <p class="eyebrow">Hành trình kết nối Gạo Thơm Đăk La</p>
+      <h1>NGHỆ THUẬT<br>TỪ HẠT GẠO</h1>
+      <p class="lead">Từ những hạt gạo bình dị, những tác phẩm sáng tạo được hình thành</p>
+      <a class="explore" href="#gallery"><span>BẮT ĐẦU KHÁM PHÁ</span><span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="grain-field"></div></div>
+  </header>
+
+  <main>
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading"><p class="eyebrow">Không gian triển lãm</p><h2>Mỗi tác phẩm — một câu chuyện</h2></div>
+      <div class="filters" role="group" aria-label="Lọc tác phẩm">
+        <button class="filter active" data-filter="all">Tất cả</button>
+        <button class="filter" data-filter="Tranh nghệ thuật">Tranh nghệ thuật</button>
+        <button class="filter" data-filter="Sản phẩm thủ công">Thủ công</button>
+        <button class="filter" data-filter="Sáng tạo độc đáo">Sáng tạo độc đáo</button>
+      </div>
+      <div class="masonry" id="masonry" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer><p>“Mỗi hạt gạo không chỉ mang giá trị của một bữa ăn mà còn chứa đựng sự sáng tạo, tình yêu và những giá trị văn hóa đáng trân trọng.”</p></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem tác phẩm chi tiết" hidden>
+    <button class="close" type="button" aria-label="Đóng">×</button>
+    <div class="lightbox-inner"><img id="lightbox-image" alt=""><div class="lightbox-caption"><h3 id="lightbox-title"></h3><p id="lightbox-description"></p></div></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

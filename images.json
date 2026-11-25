@@ -1,0 +1,7 @@
+[
+  {"title":"Dòng lúa phai màu","caption":"Tranh nghệ thuật từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục tranh nghệ thuật. Hãy thay bằng ảnh tác phẩm thật của học sinh.","src":"images/sample-01.svg","group":"Tranh nghệ thuật","ratio":"tall"},
+  {"title":"Trường sinh xanh","caption":"Sản phẩm thủ công từ gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục thủ công.","src":"images/sample-02.svg","group":"Sản phẩm thủ công","ratio":"wide"},
+  {"title":"Bản giao hưởng hạt","caption":"Sáng tạo độc đáo từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục sáng tạo độc đáo.","src":"images/sample-03.svg","group":"Sáng tạo độc đáo","ratio":"square"},
+  {"title":"Hồn quê thơm","caption":"Tranh nghệ thuật từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục tranh nghệ thuật.","src":"images/sample-04.svg","group":"Tranh nghệ thuật","ratio":"wide"},
+  {"title":"Nhịp gạo Đăk La","caption":"Sáng tạo độc đáo từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục sáng tạo độc đáo.","src":"images/sample-05.svg","group":"Sáng tạo độc đáo","ratio":"tall"}
+]
