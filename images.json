@@ -1,7 +1,51 @@
+
 [
-  {"title":"Dòng lúa phai màu","caption":"Tranh nghệ thuật từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục tranh nghệ thuật. Hãy thay bằng ảnh tác phẩm thật của học sinh.","src":"images/sample-01.svg","group":"Tranh nghệ thuật","ratio":"tall"},
-  {"title":"Trường sinh xanh","caption":"Sản phẩm thủ công từ gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục thủ công.","src":"images/sample-02.svg","group":"Sản phẩm thủ công","ratio":"wide"},
-  {"title":"Bản giao hưởng hạt","caption":"Sáng tạo độc đáo từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục sáng tạo độc đáo.","src":"images/sample-03.svg","group":"Sáng tạo độc đáo","ratio":"square"},
-  {"title":"Hồn quê thơm","caption":"Tranh nghệ thuật từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục tranh nghệ thuật.","src":"images/sample-04.svg","group":"Tranh nghệ thuật","ratio":"wide"},
-  {"title":"Nhịp gạo Đăk La","caption":"Sáng tạo độc đáo từ hạt gạo · Ảnh mẫu","description":"Ảnh mẫu minh họa cho danh mục sáng tạo độc đáo.","src":"images/sample-05.svg","group":"Sáng tạo độc đáo","ratio":"tall"}
+  {
+    "title": "Nhóm đồng quê",
+    "caption": "Tác phẩm sáng tạo từ hạt gạo",
+    "description": "Tác phẩm mang hình ảnh đồng quê gần gũi, được giới thiệu trong không gian trưng bày nghệ thuật từ gạo.",
+    "src": "images/Nhom-dong-que.jpg",
+    "group": "Tranh nghệ thuật",
+    "ratio": "tall"
+  },
+  {
+    "title": "Cùng nhau làm tranh gạo",
+    "caption": "Hoạt động trải nghiệm sáng tạo",
+    "description": "Khoảnh khắc các bạn học sinh cùng tham gia làm tranh gạo, trải nghiệm và sáng tạo từ những hạt gạo thân thuộc.",
+    "src": "images/anh-cac-ban-lam-tranh-gao.jpg",
+    "group": "Hoạt động trải nghiệm",
+    "ratio": "wide"
+  },
+  {
+    "title": "Cỏ bốn lá",
+    "caption": "Sáng tạo độc đáo từ hạt gạo",
+    "description": "Một ý tưởng sáng tạo mang hình ảnh cỏ bốn lá được thể hiện qua nghệ thuật thủ công.",
+    "src": "images/anh-co-bon-la.jpg",
+    "group": "Sáng tạo độc đáo",
+    "ratio": "square"
+  },
+  {
+    "title": "Ngôi sao nhỏ",
+    "caption": "Sản phẩm thủ công từ gạo",
+    "description": "Tác phẩm ngôi sao nhỏ với cách thể hiện sáng tạo, góp phần làm phong phú không gian trưng bày.",
+    "src": "images/anh-ngoi-sao-cute.jpg",
+    "group": "Sản phẩm thủ công",
+    "ratio": "square"
+  },
+  {
+    "title": "Nhà rông Tây Nguyên",
+    "caption": "Dấu ấn văn hóa đại ngàn",
+    "description": "Hình ảnh nhà rông gắn với nét văn hóa đặc trưng của đồng bào Tây Nguyên.",
+    "src": "images/anh-nha-rong-tay-nguyen.jpg",
+    "group": "Văn hóa Tây Nguyên",
+    "ratio": "tall"
+  },
+  {
+    "title": "Nón lá bằng gạo",
+    "caption": "Nét đẹp sáng tạo từ hạt gạo",
+    "description": "Hình ảnh chiếc nón lá thân thuộc được tái hiện qua ý tưởng sáng tạo nghệ thuật từ gạo.",
+    "src": "images/anh-non-la-bang-gao.jpg",
+    "group": "Sản phẩm thủ công",
+    "ratio": "wide"
+  }
 ]
